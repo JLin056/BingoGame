@@ -1,0 +1,56 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+.wrap {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.item {
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8fbc8f;
+}
+.title {
+    font-size: 100px;
+    margin: 10px 10px;
+    /* border: 1px solid #000; */
+}
+.content {
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+/* 去除 input 旁的箭頭 */
+.input-answer::-webkit-outer-spin-button,
+.input-answer::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.input-answer {
+    width: 50px;
+    height: 50px;
+    background: azure;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+}
+.input-table {
+    margin-bottom: 20px;
+}
+.button-item {
+    display: flex;
+}
+.button {
+    padding: 5px 20px;
+    background-color: #f5f5dc;
+    margin: 5px;
+}
+.button:hover {
+    background-color: #e0ffff;
+    cursor: pointer; /* 滑鼠變小手 */
+}
