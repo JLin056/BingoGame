@@ -10,4 +10,4 @@ Play bingo with random or manual picks, and see if you hit a line!
 
 A simple flow from user input to bingo result:
 
-<img src="asset/image/flow.png" alt="Flow" width="800">
+<img src="asset/image/workflow.png" alt="Flow" width="800">
